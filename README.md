@@ -1,5 +1,5 @@
-# Biblioteca
- Projeto de Desenvolvimento de Sistemas II
+# Biblioteca - Projeto de Desenvolvimento de Sistemas II
+![lendo](./gifs/lendo.gif)
 
 ## Sobre o Projeto
 
@@ -9,7 +9,24 @@
     entre outros; porem eu gostaria de algo que pudesse ver no celular e 
     computador sem precisar trocar o arquivo do livro ou ficar avançando 
     as paginas, dai surgiu a ideia e necessidade de criar minha biblioteca virtual.
+ 
+ ### **2.** Visual 
+    Não busquei fugir muito do tradicional, uma pagina para a estante 
+    outra destinada a leitura e por ultimo uma para edição das
+    informações de um livro.
 
+   #### - Estante
+   Na estante temos enfase na divisão dos livros por capas e num grande botão de adição.
+   #### - Leitura
+   Na pagina de Leitura o destaque é o livro e sua timeline (no caso a visualização de paginas).
+   #### - Informações
+   Na parte de informaçoes que pode ser usada para editar e excluir temos em destaque os campos de 
+   imagem, descrição e nome do livro.
+   
+###### [VOCÊ PODE VER ATRAVES DESSE LINK](https://www.figma.com/design/nhDfdsoYbpecfinIepvIZN/Biblioteca?node-id=1-11&t=ZTZ25XTo6ZK0L14M-1)
+
+---
+![lendo](./gifs/cansado.gif)
 ## Requisitos entregados pelo Professor (ADILES CORDEIRO)
 
 ### **1.** Desenvolvimento da Aplicação
@@ -53,3 +70,4 @@
     A tela de Produtos deve listar produtos vindos do banco
     Qualquer ação de cadastro, consulta ou visualização deve ocorrer via banco
 
+![lendo](./gifs/legal.gif)
