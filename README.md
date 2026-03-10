@@ -1,5 +1,4 @@
 # Biblioteca - Projeto de Desenvolvimento de Sistemas II
-![lendo](./gifs/lendo.gif)
 
 ## Sobre o Projeto
 
@@ -26,7 +25,6 @@
 ###### [VOCÊ PODE VER ATRAVES DESSE LINK](https://www.figma.com/design/nhDfdsoYbpecfinIepvIZN/Biblioteca?node-id=1-11&t=ZTZ25XTo6ZK0L14M-1)
 
 ---
-![lendo](./gifs/cansado.gif)
 ## Requisitos entregados pelo Professor (ADILES CORDEIRO)
 
 ### **1.** Desenvolvimento da Aplicação
@@ -70,4 +68,4 @@
     A tela de Produtos deve listar produtos vindos do banco
     Qualquer ação de cadastro, consulta ou visualização deve ocorrer via banco
 
-![lendo](./gifs/legal.gif)
+![lendo](./gifs/cansado.gif)
