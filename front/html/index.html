@@ -7,23 +7,24 @@
     <link rel="stylesheet" href="/front/css/style_index.css">
 </head>
 <body>
-    <div id="box">
+    <section id="box">
         <div class="logo">
             <img class="logo-img" src="/front/img/bookmark.png" alt="Logo">
         </div>
         <div id="input">
             <label class="t-input">Usuário:</label>
-            <input class="user" type="text" name="user" ></input>
+            <input class="user" id="user" type="text" placeholder="User" value="3"></input>
     
             <label class="t-input">Password:</label>
-            <input class="password" type="password" name="Password"></input>
+            <input class="password" id="password" type="password" placeholder="Password" value="4"></input>
         </div>
         <div id="Login">
-            <button class="login-button"><a class="link" href="library.html">Entrar</a></button>
+            <button class="login-button" onclick="a()"><a href="library.html">Entrar</a></button>
         </div>
         <div>
             <a class="link-register" href="register.html">Criar Conta</a>
         </div>
-    </div>
+    </section>
+    <script src="/front/js/script.js"></script>
 </body>
 </html>
