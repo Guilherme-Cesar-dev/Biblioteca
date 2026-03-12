@@ -5,9 +5,14 @@
 }
 
 body{
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-image: url('https://plus.unsplash.com/premium_photo-1677567996070-68fa4181775a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmlibGlvdGVjYXxlbnwwfHwwfHx8MA%3D%3D');
-    background-size: 2000px;
+    background-size: 150dvh;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado */
 }
 
 #box{
@@ -28,9 +33,9 @@ body{
         background-color: var(--cor-secundaria); 
 }
 
-.link{
+.link-button{
     text-decoration: none; 
-    color: inherit;   
+    color: inherit;
 }
 
 .password,.user{
@@ -56,10 +61,6 @@ body{
     margin-bottom: 19px;
     width: 300px;
     height: 40px;
-}
-
-.link-register{
-    text-decoration: none; 
 }
 
 .t-input{
