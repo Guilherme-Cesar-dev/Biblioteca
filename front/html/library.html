@@ -32,7 +32,14 @@
                     <button class="button-beside-a" type="button">A1</button>
                     <button class="button-beside-b" type="button">A2</button>
                     <button class="button-beside-a" type="button">A3</button>
-                    <button class="button-beside-b" type="button">Add Book</button>            
+                    <!--<input class="input-beside" type="file" multiple accept=".pdf"></input>-->   
+                    <button class="button-beside-b" id="addBook" type="button" onclick="addBook()">Add Book</button>   
+                </div>
+                <div id="input-file" >
+                    <div class="input-files">
+                        <input class="file" type="file" name="file-input" accept=".pdf">
+                        <button class="button-file" id="closee">X</button>
+                    </div>
                 </div>
             </div>
         </aside>
@@ -41,33 +48,33 @@
             <div id="books">
                 <!--Produtos Fixos-->
                 <div class="book">
-                    <img src="" alt="">
-                    <p class="p-book">P1</p>
+                    <img class="book-img" src="/front/img/o_hobbit.jpg" alt="O hobbit">
+                    <p class="p-book">O hobbit</p>
                 </div>
 
                 <div class="book">
-                    <img src="" alt="">
-                    <p class="p-book">P2</p>
+                    <img class="book-img" src="/front/img/as_cronicas_de_narnia.jpg" alt="">
+                    <p class="p-book">As Crônicas de Narnia</p>
                 </div>
 
                 <div class="book">
-                    <img src="" alt="">
-                    <p class="p-book">P4</p>
+                    <img class="book-img" src="/front/img/as_barbas_do_imperador.jpg" alt="">
+                    <p class="p-book">As Barbas do Imperador</p>
                 </div>
 
                 <div class="book">
-                    <img src="" alt="">
-                    <p class="p-book">P4</p>
+                    <img class="book-img" src="/front/img/capitaes_da_areia.jpg" alt="">
+                    <p class="p-book">Capitães da Areia</p>
                 </div>
 
                 <div class="book">
-                    <img src="" alt="">
-                    <p class="p-book">P5</p>
+                    <img class="book-img" src="/front/img/frankenstein.jpg" alt="">
+                    <p class="p-book">Frankenstein</p>
                 </div>
 
                 <div class="book">
-                    <img src="" alt="">
-                    <p class="p-book">P6</p>
+                    <img class="book-img" src="/front/img/pinoquio.jpg" alt="">
+                    <p class="p-book">Pinóquio</p>
                 </div>
 
             </div>
@@ -76,12 +83,23 @@
 
 <!--Parte Inferior-->
     <footer>
-        <div class="down">
-            <p class="text">BLA BLA</p>
-            <p class="text">BLA BLA</p>
-            <p class="text">BLA BLA</p>
+        <div id="down">
+            <div class="box-down">
+                <h3 class="h3-down">Sobre</h3>
+                <p class="text-down">NADA AINDA</p>
+            </div>
+            <div class="box-down">
+                <h3 class="h3-down">Redes Sociais</h3>
+                <p class="text-down">SO BESTEIRA</p>
+            </div>
+            <div class="box-down">
+                <h3 class="h3-down">Livros</h3>
+                <p class="text-down">como funciona um livro?</p>
+            </div>
         </div>
+        <p class="mensage-down">Copyright (c) 2026 Cesar</p>
     </footer>
 
+    <script src="/front/js/script.js"></script>
 </body>
 </html>
